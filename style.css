@@ -1,0 +1,68 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://images.pexels.com/photos/8127308/pexels-photo-8127308.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}   
+
+.conatiner {
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+  margin: 30px 0;  
+  display: flex;
+  gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: rgb(42, 36, 126);
+}
+
+#paper{
+    background-color: rgb(22, 116, 22);
+}
+
+#scissor {
+    background-color: rgb(163, 16, 16);
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span{
+    color: rgb(3, 3, 116);
+}
+
+.machine-score span{
+    color: rgb(192, 7, 7);
+}
